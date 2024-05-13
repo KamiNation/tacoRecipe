@@ -5,7 +5,7 @@ console.log(data);
 let recipe;
 
 export const homepage = (req, res) => {
-  res.render("index.ejs", { recipe });
+  res.render("index", { recipe });
 }
 
 export const recipeRequest = (req, res) => {
